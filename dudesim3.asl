@@ -9,7 +9,7 @@ state("DudeSimulator3")
 
 startup
 {
-	if (timer.CurrentTimingMethod == TimingMethod.RealTime)
+    if (timer.CurrentTimingMethod == TimingMethod.RealTime)
     {        
         var timingMessage = MessageBox.Show (
             "This game uses Time without Loads (Game Time) as the main timing method.\n"+
